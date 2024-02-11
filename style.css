@@ -19,16 +19,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  /* margin-left: 89px; */
+  min-height: 127vh;
+  max-height: 100%;
+  margin-left: 92px;
 }
 
 main {
   /* display: flex; */
   border-radius: 10px;
   background-color: var(--Verydarkblue-cardBG);
-  width: 300px;
-  padding: 20px;
+  width: 349px;
+  padding: 23px;
 }
 
 #up {
@@ -41,17 +42,63 @@ main {
 #up img {
   border-radius: 10px;
   width: 100%;
-}
-
-img {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 h1 {
   color: var(--White);
-  margin-bottom: 10px;
+  margin-top: 16px;
+  font-size: 21px;
+  letter-spacing: 0.5px;
+  font-weight: 700;
 }
 
 p {
   color: var(--Softblue);
+  margin-bottom: 10px;
+  line-height: 1.2;
+}
+
+.numbers-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.eth {
+  color: var(--Cyan);
+}
+
+.eth img {
+  margin-right: 5px;
+}
+
+.days {
+  color: var(--Softblue);
+}
+
+.days img {
+  margin-right: 5px;
+}
+
+.border {
+  margin: 10px 0;
+  width: 100%;
+  border: 1px solid var(--Verydarkblue-line);
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  color: var(--Softblue);
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 30px;
+  border: 1px solid var(--White);
+  margin-right: 10px;
+}
+
+.profile span {
+  color: var(--White);
 }
